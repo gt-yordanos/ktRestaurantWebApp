@@ -119,7 +119,7 @@ header{
   color: var(--text-color);
 }
 section{
-  padding: 70px 12% 60%;
+  padding: 70px 12% 60px;
 }
 .home{
   position: relative;
@@ -129,9 +129,7 @@ section{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
-  padding-top: 150px;
-  margin-bottom: 0;
-  padding-bottom: 100px;
+  margin-top: 50px;
 }
 .home-img img{
   width: 80%;
