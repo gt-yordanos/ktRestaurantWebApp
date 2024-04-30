@@ -259,6 +259,103 @@ header.sticky{
   line-height: 30px;
   margin-bottom: 3rem;
   max-width: 100%;
-  text-align: justify;
+  text-align: justify; 
+}
+
+.middle-text{
+  text-align: center;
+}
+.middle-text h4{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--main-color);
+}
+.middle-text h2{
+  font-size: var(--h2-font);
+}
+.menu-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+.row{
+  position: relative;
+  background: var(--other-color);
+  border-radius: 3rem;
+  overflow: hidden;
+  height: 28rem;
+  width: 20rem;
   
+}
+.img-box {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.img-box img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.text-box{
+  width: 100%;
+  padding: 10px 35px 40px;
+}
+.text-box h3{
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.text-box p{
+  color: var(--second-color);
+  line-height: 30px;
+  margin-bottom: 1.1rem;
+}
+.in-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.in-text .price h6{
+  font-size: 17px;
+  color: var(--main-color);
+  font-weight: 600;
+}
+.in-text .s-btn a{
+  display: inline-block;
+  padding: 9px 23px;
+  background: var(--bg-color);
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 3rem;
+  transition: all 0.5s ease;
+}
+.in-text .s-btn a:hover{
+background: var(--main-color);
+color: var(--bg-color);
+box-shadow: var(--main-color) 0px 1px 25px;
+}
+.top-icon{
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+.top-icon i{
+  font-size: 25px;
+  color: var(--main-color);
+  box-shadow: var(--bg-color) 2px 2px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  vertical-align: center;
 }
