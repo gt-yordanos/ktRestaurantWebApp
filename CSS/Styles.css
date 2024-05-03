@@ -410,3 +410,91 @@ box-shadow: var(--main-color) 0px 1px 20px;
   font-size: 17px;
   margin-right: 5px;
 }
+
+.scroll {
+  position: fixed;
+  bottom: 2.2rem;
+  right: 3.2rem;
+  border: 2px solid transparent;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.scroll i {
+  font-size: 22px;
+  color: var(--text-color);
+  background: var(--main-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+.scroll.scrollTop {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+footer{
+  background-color: var(--other-color);
+  margin-top: 200px;
+  padding: 40px 40px 0 40px;
+}
+.contact-content{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contact-text{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.social i{
+  display: inline-block;
+  font-size: 32px;
+  color: var(--second-color);
+  margin: 0 20px;
+  transition: all 0.5s ease;
+}
+.social i:hover{
+  color: var(--main-color);
+}
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 50px;
+}
+.main-d a{
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-d i{
+  vertical-align: middle;
+  margin-right: 12px;
+  font-size: 28px;
+  color: var(--main-color);
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.copyright p {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.copyright-symbol{
+  font-size: 20px;
+}
